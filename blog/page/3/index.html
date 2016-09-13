@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>mikkokeskinen</title>
+        <meta name="description" content="The blog of Mikko Keskinen">
+        <meta name="author" content="Mikko Keskinen">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" href="../../../static/css/base.css">
+        <link rel="stylesheet" href="../../../static/css/themes/type_17.css">
+        <link rel="stylesheet" href="../../../static/css/themes/color_10.css">
+        <link rel="stylesheet" href="../../../static/css/keso.css">
+        <link rel="stylesheet" href="../../../static/css/pygments.css">
+
+    
+        <link href='http://fonts.googleapis.com/css?family=Inconsolata&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <!-- Header begins ========================================================================== -->
+            <header class="sixteen columns">
+                <div id="logo">
+                    
+                    <a href="../../../"><h1>mikkokeskinen</h1></a>
+                    <h2>Python, Django, Clojure, Games, Retro, Tech</h2>
+                </div>
+                <nav>
+                  <ul>
+                    <li class="active"><a href="../../../">Blog</a></li>
+                    
+                      <li><a href="../../../about/">About</a></li>
+                    
+                  </ul>
+                </nav>
+                <hr />
+            </header>
+
+            <div class="twelve columns offset-by-two">
+                
+  
+    
+<article>
+    <h2 class="entry-title">
+        
+        <a href="https://www.youtube.com/watch?v=ZS3O0OOn0a0" target="_blank">Extremely funny ping pong match</a>
+        
+    </h2>
+
+    <div class="entry-content">
+        <p>:D</p>
+
+
+        <div class="post-info">
+            <p>
+                <time class="published" datetime="2014-01-26T10:54:00+02:00">
+                    <strong>Published:</strong> Sun, 26 January 2014
+                </time>
+                
+            </p>
+        </div>
+    </div>
+    <p>
+        
+        <a href="../../../">Back to the index</a>
+    </p>
+</article>
+
+  
+    
+<article>
+    <h2 class="entry-title">
+        
+        <a href="http://www.infoq.com/author/Rich-Hickey" target="_blank">Rich Hickeys presentations</a>
+        
+    </h2>
+
+    <div class="entry-content">
+        <p>This holiday I've been mostly watching Rich Hickeys presentations.</p>
+<p>I highly recommend watching them. At least <a href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">Are we there Yet?</a>,
+<a href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple made easy</a> and
+<a href="http://www.infoq.com/presentations/Value-Values">The Value of Values</a>. They are real eye openers.</p>
+
+
+        <div class="post-info">
+            <p>
+                <time class="published" datetime="2014-01-05T13:20:00+02:00">
+                    <strong>Published:</strong> Sun, 05 January 2014
+                </time>
+                
+            </p>
+        </div>
+    </div>
+    <p>
+        
+        <a href="../../../">Back to the index</a>
+    </p>
+</article>
+
+  
+    
+<article>
+    <h2 class="entry-title">
+        
+        <a href="http://willsteptoe.com/post/66968953089/ar-rift-part-1" target="_blank">Augmented reality with Oculus Rift and webcams</a>
+        
+    </h2>
+
+    <div class="entry-content">
+        <p>Good immersive virtual reality won't come soon enough. Can't wait.</p>
+
+
+        <div class="post-info">
+            <p>
+                <time class="published" datetime="2013-12-13T10:45:00+02:00">
+                    <strong>Published:</strong> Fri, 13 December 2013
+                </time>
+                
+            </p>
+        </div>
+    </div>
+    <p>
+        
+        <a href="../../../">Back to the index</a>
+    </p>
+</article>
+
+  
+    
+<article>
+    <h2 class="entry-title">
+        
+        <a href="../../../blog/ie-javascript-mime-type/" rel="bookmark" title="Permalink to Javascript MIME-type in Internet Explorer">Javascript MIME-type in Internet Explorer</a>
+        
+    </h2>
+
+    <div class="entry-content">
+        <p>Just wasted an hour debugging a simple site because of this.</p>
+<p>When writing inline javascript for IE, don't use the standard
+<code>application/javascript</code>-type because Internet Explorer won't run the code.</p>
+<div class="highlight"><pre><span></span><span class="c">&lt;!-- Doesn&#39;t work with IE --&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;application/javascript&quot;</span><span class="p">&gt;</span>
+    <span class="kd">var</span> <span class="nx">testing</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+<p>Just change the MIME-type to <code>text/javascript</code> and you're good to go:</p>
+<div class="highlight"><pre><span></span><span class="c">&lt;!-- Works in all browsers --&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="p">&gt;</span>
+    <span class="kd">var</span> <span class="nx">testing</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+
+
+        <div class="post-info">
+            <p>
+                <time class="published" datetime="2013-12-02T17:30:00+02:00">
+                    <strong>Published:</strong> Mon, 02 December 2013
+                </time>
+                
+            </p>
+        </div>
+    </div>
+    <p>
+        
+        <a href="../../../">Back to the index</a>
+    </p>
+</article>
+
+  
+    
+<article>
+    <h2 class="entry-title">
+        
+        <a href="https://www.youtube.com/watch?v=-HZS0_RW3cg" target="_blank">Super Hexagon for C64</a>
+        
+    </h2>
+
+    <div class="entry-content">
+        <p>So cool.</p>
+
+
+        <div class="post-info">
+            <p>
+                <time class="published" datetime="2013-12-02T14:00:00+02:00">
+                    <strong>Published:</strong> Mon, 02 December 2013
+                </time>
+                
+            </p>
+        </div>
+    </div>
+    <p>
+        
+        <a href="../../../">Back to the index</a>
+    </p>
+</article>
+
+  
+
+  
+  <div class="pagination">
+    
+      <a href="../../../blog/page/2/">&laquo; Previous</a>
+    
+    | 3 |
+    
+      <a href="../../../blog/page/4/">Next &raquo;</a>
+    
+  </div>
+
+
+            </div>
+            <div class="two columns"></div>
+
+            <footer class="sixteen columns">
+                <hr />
+                <ul id="footerLinks">
+                    <li><a href="mailto:keso@iki.fi">keso@iki.fi</a></li>
+                    <!--<li><a href="http://www.twitter.com" target="_blank">Twitter</a></li>-->
+                    <li>Powered by <a href="//getlektor.com" target="_blank">Lektor</a>, <a href="//www.typeandgrids.com" target="_blank">Type &amp; Grids</a> and <a href="//www.github.com">Github</a></li>
+                </ul>
+            </footer>
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-45896098-1', 'blog.kesoil.com');
+                ga('send', 'pageview');
+            </script>
+        </div>
+    </body>
+</html>
