@@ -44,6 +44,45 @@
 <article>
     <h2 class="entry-title">
         
+        <a href="../../../blog/chrome-origin-chip/" rel="bookmark" title="Permalink to Chrome Origin Chip">Chrome Origin Chip</a>
+        
+    </h2>
+
+    <div class="entry-content">
+        <p>So Google has decided to mess with every user and especially web developer by
+hiding the full URL in the address bar.</p>
+<p>For those like me who would like to disable the "experiment" type the
+following address to the URL bar, press enter, choose disabled and relaunch Chrome.</p>
+<pre><code>chrome://flags/#origin-chip-in-omnibox
+</code></pre>
+<p>The feature is called Origin Chip. Here is what it looks like:</p>
+<p><img src="../../../blog/chrome-origin-chip/origin_chip_enabled.jpg" alt="Origin Chip Enabled"></p>
+<p>Compare that to an image with the Origin Chip disabled:</p>
+<p><img src="../../../blog/chrome-origin-chip/origin_chip_disabled.jpg" alt="Origin Chip Disabled"></p>
+<p>More info in <a href="http://www.allenpike.com/2014/burying-the-url/">Allen Pikes
+Blog</a>. Discussion in <a href="https://news.ycombinator.com/item?id=7677898">Hacker News</a>.</p>
+
+
+        <div class="post-info">
+            <p>
+                <time class="published" datetime="2014-05-09T16:30:00+03:00">
+                    <strong>Published:</strong> Fri, 09 May 2014
+                </time>
+                
+            </p>
+        </div>
+    </div>
+    <p>
+        
+        <a href="../../../">Back to the index</a>
+    </p>
+</article>
+
+  
+    
+<article>
+    <h2 class="entry-title">
+        
         <a href="../../../blog/creating-local-time-with-pytz/" rel="bookmark" title="Permalink to Creating local time with pytz">Creating local time with pytz</a>
         
     </h2>
@@ -174,47 +213,6 @@
             <p>
                 <time class="published" datetime="2013-12-13T10:45:00+02:00">
                     <strong>Published:</strong> Fri, 13 December 2013
-                </time>
-                
-            </p>
-        </div>
-    </div>
-    <p>
-        
-        <a href="../../../">Back to the index</a>
-    </p>
-</article>
-
-  
-    
-<article>
-    <h2 class="entry-title">
-        
-        <a href="../../../blog/ie-javascript-mime-type/" rel="bookmark" title="Permalink to Javascript MIME-type in Internet Explorer">Javascript MIME-type in Internet Explorer</a>
-        
-    </h2>
-
-    <div class="entry-content">
-        <p>Just wasted an hour debugging a simple site because of this.</p>
-<p>When writing inline javascript for IE, don't use the standard
-<code>application/javascript</code>-type because Internet Explorer won't run the code.</p>
-<div class="highlight"><pre><span></span><span class="c">&lt;!-- Doesn&#39;t work with IE --&gt;</span>
-<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;application/javascript&quot;</span><span class="p">&gt;</span>
-    <span class="kd">var</span> <span class="nx">testing</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</pre></div>
-<p>Just change the MIME-type to <code>text/javascript</code> and you're good to go:</p>
-<div class="highlight"><pre><span></span><span class="c">&lt;!-- Works in all browsers --&gt;</span>
-<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="p">&gt;</span>
-    <span class="kd">var</span> <span class="nx">testing</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</pre></div>
-
-
-        <div class="post-info">
-            <p>
-                <time class="published" datetime="2013-12-02T17:30:00+02:00">
-                    <strong>Published:</strong> Mon, 02 December 2013
                 </time>
                 
             </p>

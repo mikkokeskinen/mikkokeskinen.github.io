@@ -44,6 +44,47 @@
 <article>
     <h2 class="entry-title">
         
+        <a href="../../../blog/ie-javascript-mime-type/" rel="bookmark" title="Permalink to Javascript MIME-type in Internet Explorer">Javascript MIME-type in Internet Explorer</a>
+        
+    </h2>
+
+    <div class="entry-content">
+        <p>Just wasted an hour debugging a simple site because of this.</p>
+<p>When writing inline javascript for IE, don't use the standard
+<code>application/javascript</code>-type because Internet Explorer won't run the code.</p>
+<div class="highlight"><pre><span></span><span class="c">&lt;!-- Doesn&#39;t work with IE --&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;application/javascript&quot;</span><span class="p">&gt;</span>
+    <span class="kd">var</span> <span class="nx">testing</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+<p>Just change the MIME-type to <code>text/javascript</code> and you're good to go:</p>
+<div class="highlight"><pre><span></span><span class="c">&lt;!-- Works in all browsers --&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="p">&gt;</span>
+    <span class="kd">var</span> <span class="nx">testing</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+
+
+        <div class="post-info">
+            <p>
+                <time class="published" datetime="2013-12-02T17:30:00+02:00">
+                    <strong>Published:</strong> Mon, 02 December 2013
+                </time>
+                
+            </p>
+        </div>
+    </div>
+    <p>
+        
+        <a href="../../../">Back to the index</a>
+    </p>
+</article>
+
+  
+    
+<article>
+    <h2 class="entry-title">
+        
         <a href="https://www.youtube.com/watch?v=-HZS0_RW3cg" target="_blank">Super Hexagon for C64</a>
         
     </h2>
@@ -155,34 +196,6 @@ will remove them at boot so you'll need to run it after every boot.</p>
             <p>
                 <time class="published" datetime="2013-11-26T11:00:00+02:00">
                     <strong>Published:</strong> Tue, 26 November 2013
-                </time>
-                
-            </p>
-        </div>
-    </div>
-    <p>
-        
-        <a href="../../../">Back to the index</a>
-    </p>
-</article>
-
-  
-    
-<article>
-    <h2 class="entry-title">
-        
-        <a href="http://sixteencolors.net/pack/blocktronics_16colors/ungenannt_leviathan.ans" target="_blank">Old school ANSI art</a>
-        
-    </h2>
-
-    <div class="entry-content">
-        <p>Didn't know they still do these. But seeing them sure warms my heart.</p>
-
-
-        <div class="post-info">
-            <p>
-                <time class="published" datetime="2013-11-23T15:00:00+02:00">
-                    <strong>Published:</strong> Sat, 23 November 2013
                 </time>
                 
             </p>
