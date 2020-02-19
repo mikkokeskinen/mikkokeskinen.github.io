@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mikkokeskinen</title>
+    <link>https://blog.muke.fi/</link>
+    <description>The blog of Mikko Keskinen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>keso@iki.fi (Mikko Keskinen)</managingEditor>
+    <webMaster>keso@iki.fi (Mikko Keskinen)</webMaster>
+    <lastBuildDate>Mon, 07 Nov 2016 08:00:00 +0200</lastBuildDate>
+    
+    <atom:link href="https://blog.muke.fi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Some thoughts on asynchronous API design in a post-async/await world</title>
+      <link>https://vorpus.org/blog/some-thoughts-on-asynchronous-api-design-in-a-post-asyncawait-world/</link>
+      <pubDate>Mon, 07 Nov 2016 08:00:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/some-thoughts-on-asynchronous-api-design-in-a-post-asyncawait-world/</guid>
+      <description>&lt;p&gt;Comprehensive post of how to do asynchronous programming with Python 3 and asyncio or curio.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What Color Is Your Function</title>
+      <link>http://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/</link>
+      <pubDate>Tue, 25 Oct 2016 17:30:00 +0300</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/what-color-is-your-function/</guid>
+      <description>&lt;p&gt;Didn&amp;rsquo;t stumble onto this until now. Great read about the difficulty of asynchronous programming.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lessons Learned Shipping Apps</title>
+      <link>http://thecodist.com/article/lessons-learned-shipping-apps</link>
+      <pubDate>Thu, 06 Oct 2016 13:50:00 +0300</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/lessons-learned-shipping-apps/</guid>
+      <description>&lt;p&gt;Great read.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dark Scrum</title>
+      <link>http://ronjeffries.com/articles/016-09ff/defense/</link>
+      <pubDate>Tue, 13 Sep 2016 09:38:00 +0300</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/dark-scrum/</guid>
+      <description>&lt;p&gt;How not to do Scrum.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Your DI framework is killing your code</title>
+      <link>http://blog.activelylazy.co.uk/2015/09/25/your-di-framework-is-killing-your-code/</link>
+      <pubDate>Tue, 29 Sep 2015 17:15:00 +0300</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/your-di-framework-is-killing-your-code/</guid>
+      <description>&lt;p&gt;On perils of Dependency Injection. I have always thought that DI is a very odd choice.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Another coding excercise</title>
+      <link>https://github.com/mikkokeskinen/pairs</link>
+      <pubDate>Tue, 12 May 2015 17:55:00 +0300</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/pairs/</guid>
+      <description>&lt;p&gt;This one I did 6 months ago but only now decided to upload it to Github.
+Also in Clojure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Funniest words</title>
+      <link>https://github.com/mikkokeskinen/hassuimmat-sanat</link>
+      <pubDate>Mon, 11 May 2015 21:20:00 +0300</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/funnies-words/</guid>
+      <description>&lt;p&gt;Did a small coding excercise in Clojure. It was a competiton by
+a finnish company named &lt;a href=&#34;http://wunderdog.fi&#34;&gt;Wunderdog&lt;/a&gt;. Didn&amp;rsquo;t notice
+the competition until now so didn&amp;rsquo;t enter my solution. :) But kept
+myself from peeking the example solutions before I made mine.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.wunderdog.fi/hassuimmat-sanat&#34;&gt;Link to the competition&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OFFENCE &amp; FAIRLIGHT &amp; PROSONIX: RGB (2014)</title>
+      <link>https://www.youtube.com/watch?v=vfJjRRICzv8</link>
+      <pubDate>Mon, 05 Jan 2015 09:55:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/rgb-c64-demo/</guid>
+      <description>&lt;p&gt;Very impressive C64 demo.&lt;/p&gt;
+&lt;p&gt;Relevant tutorial: &amp;ldquo;&lt;a href=&#34;http://www.antimon.org/code/Linus/&#34;&gt;An Introduction to Programming C-64 Demos&lt;/a&gt;&amp;rdquo; by one of
+the creators of the demo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stephen Wolfram&#39;s Introduction to the Wolfram Language</title>
+      <link>https://www.youtube.com/watch?v=_P9HqHVPeik</link>
+      <pubDate>Tue, 30 Dec 2014 09:30:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/wolfram-language/</guid>
+      <description>&lt;p&gt;Wolfram Language could bring many previously unthinkable
+projects to life. I could see someone getting inspiration from &lt;a href=&#34;http://worrydream.com/&#34;&gt;Bret
+Victors&lt;/a&gt; ideas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Core.async a Clojure Library for Asynchronous Programming</title>
+      <link>https://www.hakkalabs.co/articles/core-async-a-clojure-library</link>
+      <pubDate>Mon, 29 Dec 2014 19:00:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/core-async-a-clojure-library-for-asynchronous-programming/</guid>
+      <description>&lt;p&gt;A great talk by &lt;a href=&#34;http://twitter.com/swannodette&#34;&gt;David Nolen&lt;/a&gt; about
+core.async and ClojureScript. This talk made me really excited about
+ClojureScript and core.async.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to use the Xbox 360 controller on OS X Yosemite</title>
+      <link>https://github.com/360Controller/360Controller/releases</link>
+      <pubDate>Mon, 29 Dec 2014 15:45:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/xbox-xontroller-yosemite/</guid>
+      <description>&lt;p&gt;My Xbox 360 controller didn&amp;rsquo;t work after installing Yosemite. Looks like
+there is a new 360controller-driver that works beautifully.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chrome Origin Chip</title>
+      <link>https://blog.muke.fi/feature/chrome-origin-chip/</link>
+      <pubDate>Fri, 09 May 2014 16:30:00 +0300</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/feature/chrome-origin-chip/</guid>
+      <description>&lt;p&gt;So Google has decided to mess with every user and especially web developer by
+hiding the full URL in the address bar.&lt;/p&gt;
+&lt;p&gt;For those like me who would like to disable the &amp;ldquo;experiment&amp;rdquo; type the
+following address to the URL bar, press enter, choose disabled and relaunch Chrome.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chrome://flags/#origin-chip-in-omnibox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The feature is called Origin Chip. Here is what it looks like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;origin_chip_enabled.jpg&#34; alt=&#34;Origin Chip Enabled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Compare that to an image with the Origin Chip disabled:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;origin_chip_disabled.jpg&#34; alt=&#34;Origin Chip Disabled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;More info in &lt;a href=&#34;http://www.allenpike.com/2014/burying-the-url/&#34;&gt;Allen Pikes Blog&lt;/a&gt;. Discussion in &lt;a href=&#34;https://news.ycombinator.com/item?id=7677898&#34;&gt;Hacker News&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating local time with pytz</title>
+      <link>https://blog.muke.fi/feature/creating-local-time-with-pytz/</link>
+      <pubDate>Wed, 05 Mar 2014 20:30:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/feature/creating-local-time-with-pytz/</guid>
+      <description>&lt;p&gt;I tried to create a datetime in a specific timezone like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;datetime&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pytz&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;eet&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pytz&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;timezone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;Europe/Helsinki&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;local_month_start&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;datetime&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;datetime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2014&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tzinfo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;eet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;# REPL output:&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; local_month_start.tzinfo&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;lt;DstTzInfo &amp;#39;Europe/Helsinki&amp;#39; HMT+1:40:00 STD&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; local_month_start.astimezone(pytz.UTC)&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# datetime.datetime(2014, 2, 28, 22, 20, tzinfo=&amp;lt;UTC&amp;gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The what now? Correct UTC offset is exactly 2 hours, not 1:40.&lt;/p&gt;
+&lt;p&gt;This blog post titled &amp;ldquo;&lt;a href=&#34;http://opensourcehacker.com/2008/06/30/relativity-of-time-shortcomings-in-python-datetime-and-workaround/&#34;&gt;Relativity of time – shortcomings in Python datetime, and workaround&lt;/a&gt;&amp;rdquo; from 2008(!) sheds some light on the subject.&lt;/p&gt;
+&lt;p&gt;Ofcourse I should have read the &lt;a href=&#34;http://pytz.sourceforge.net/&#34;&gt;pytz docs&lt;/a&gt; first because they say:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This library only supports two ways of building a localized time. The first is to use the localize() method provided by the pytz library. This is used to localize a naive datetime (datetime with no timezone information)&lt;/p&gt;
+&lt;p&gt;Unfortunately using the tzinfo argument of the standard datetime constructors ‘’does not work’’ with pytz for many timezones.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So one way of getting the desired result is like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;datetime&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pytz&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;eet&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pytz&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;timezone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;Europe/Helsinki&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;local_month_start&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;eet&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;localize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;datetime&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;datetime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2014&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;# REPL output:&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; local_month_start.tzinfo&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;lt;DstTzInfo &amp;#39;Europe/Helsinki&amp;#39; EET+2:00:00 STD&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; local_month_start.astimezone(pytz.UTC)&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# datetime.datetime(2014, 2, 28, 22, 0, tzinfo=&amp;lt;UTC&amp;gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Extremely funny ping pong match</title>
+      <link>https://www.youtube.com/watch?v=ZS3O0OOn0a0</link>
+      <pubDate>Sun, 26 Jan 2014 10:54:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/extremely-funny-ping-pong-match/</guid>
+      <description>&lt;p&gt;:D&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rich Hickeys presentations</title>
+      <link>http://www.infoq.com/author/Rich-Hickey</link>
+      <pubDate>Sun, 05 Jan 2014 13:20:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/rich-hickeys-presentations/</guid>
+      <description>&lt;p&gt;This holiday I&amp;rsquo;ve been mostly watching Rich Hickeys presentations.&lt;/p&gt;
+&lt;p&gt;I highly recommend watching them. At least &lt;a href=&#34;http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey&#34;&gt;Are we there Yet?&lt;/a&gt;,
+&lt;a href=&#34;http://www.infoq.com/presentations/Simple-Made-Easy&#34;&gt;Simple made easy&lt;/a&gt; and
+&lt;a href=&#34;http://www.infoq.com/presentations/Value-Values&#34;&gt;The Value of Values&lt;/a&gt;. They are real eye openers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Augmented reality with Oculus Rift and webcams</title>
+      <link>http://willsteptoe.com/post/66968953089/ar-rift-part-1</link>
+      <pubDate>Fri, 13 Dec 2013 10:45:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/ar-rift/</guid>
+      <description>&lt;p&gt;Good immersive virtual reality won&amp;rsquo;t come soon enough. Can&amp;rsquo;t wait.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javascript MIME-type in Internet Explorer</title>
+      <link>https://blog.muke.fi/feature/ie-javascript-mime-type/</link>
+      <pubDate>Mon, 02 Dec 2013 17:30:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/feature/ie-javascript-mime-type/</guid>
+      <description>&lt;p&gt;Just wasted an hour debugging a simple site because of this.&lt;/p&gt;
+&lt;p&gt;When writing inline javascript for IE, don&amp;rsquo;t use the standard
+&lt;code&gt;application/javascript&lt;/code&gt;-type because Internet Explorer won&amp;rsquo;t run the code.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;c&#34;&gt;&amp;lt;!--&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; Doesn&amp;#39;t work with IE &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;--&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;application/javascript&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;testing&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;```
+
+Just change the MIME-type to `text/javascript` and you&amp;#39;re good to go:
+
+```html
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!--&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; Works in all browsers &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;--&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;testing&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Super Hexagon for C64</title>
+      <link>https://www.youtube.com/watch?v=-HZS0_RW3cg</link>
+      <pubDate>Mon, 02 Dec 2013 14:00:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/micro-hexagon/</guid>
+      <description>&lt;p&gt;So cool.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amazon Prime Air</title>
+      <link>http://www.amazon.com/b?ie=UTF8&amp;node=8037720011</link>
+      <pubDate>Mon, 02 Dec 2013 10:00:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/amazon-prime-air/</guid>
+      <description>&lt;p&gt;Science Fiction won&amp;rsquo;t be fiction for long if you ask Amazon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CMS Trap</title>
+      <link>http://hakunin.com/cms-trap</link>
+      <pubDate>Thu, 28 Nov 2013 10:00:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/cms-trap/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Most importantly, don’t get yourself tangled in too much speculation,
+let the story unfold naturally.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Great read about web app architecture design.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VirtualBox error in OS X Mavericks</title>
+      <link>https://blog.muke.fi/feature/virtualbox-mavericks/</link>
+      <pubDate>Tue, 26 Nov 2013 11:00:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/feature/virtualbox-mavericks/</guid>
+      <description>&lt;p&gt;After upgrading to OS X Mavericks I was experiencing strange errors when
+trying to start a VirtualBox VM. e.g.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Progress state: NS_ERROR_FAILURE
+VBoxManage: error: Failed to create the host-only adapter
+VBoxManage: error: VBoxNetAdpCtl: Error while adding new interface: failed to open /dev/vboxnetctl: No such file or directory
+VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component HostNetworkInterface, interface IHostNetworkInterface
+VBoxManage: error: Context: &amp;quot;int handleCreate(HandlerArg*, int, int*)&amp;quot; at line 66 of file VBoxManageHostonly.cpp
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Problem was solved by running the following command in the command line:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo &lt;span class=&#34;s2&#34;&gt;&amp;#34;/Library/Application Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh&amp;#34;&lt;/span&gt; restart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will install the VirtualBox binaries and kernel extensions again. The OS X
+will remove them at boot so you&amp;rsquo;ll need to run it after every boot.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Old school ANSI art</title>
+      <link>http://sixteencolors.net/pack/blocktronics_16colors/ungenannt_leviathan.ans</link>
+      <pubDate>Sat, 23 Nov 2013 15:00:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/old-school-ansi-art/</guid>
+      <description>&lt;p&gt;Didn&amp;rsquo;t know they still do these. But seeing them sure warms my heart.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sofles - Limitless</title>
+      <link>http://www.youtube.com/watch?v=Pv-Do30-P8A</link>
+      <pubDate>Sat, 23 Nov 2013 12:00:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/sofles-limitless/</guid>
+      <description>&lt;p&gt;Amazing stop-motion graffiti.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Viewing disk usage on Linux / BSD</title>
+      <link>http://www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem/</link>
+      <pubDate>Thu, 21 Nov 2013 15:00:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/du-sort/</guid>
+      <description>&lt;p&gt;How to sort human readable output of &lt;code&gt;du&lt;/code&gt; on Mac OS X command line.
+Strange that the &lt;code&gt;sort&lt;/code&gt; command in BSDs doesn&amp;rsquo;t support the &lt;code&gt;-h&lt;/code&gt; flag.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in G M K&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; du -sh * &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;0-9&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$i&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sort -nr -k 1&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Touch Arcade review of the MOGA iPhone/iPod game controller</title>
+      <link>http://toucharcade.com/2013/11/19/hands-on-with-the-moga-ace-power-ios-7-game-controller/</link>
+      <pubDate>Wed, 20 Nov 2013 20:50:00 +0200</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/ios-game-controller/</guid>
+      <description>&lt;p&gt;Finally the days of action gaming on a phone are here. Nokia N-Gage tried it in
+2003, but I guess the time wasn’t right then.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
