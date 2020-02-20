@@ -94,7 +94,6 @@ Also in Clojure.&lt;/p&gt;
 a finnish company named &lt;a href=&#34;http://wunderdog.fi&#34;&gt;Wunderdog&lt;/a&gt;. Didn&amp;rsquo;t notice
 the competition until now so didn&amp;rsquo;t enter my solution. :) But kept
 myself from peeking the example solutions before I made mine.&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;http://www.wunderdog.fi/hassuimmat-sanat&#34;&gt;Link to the competition&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -106,7 +105,6 @@ myself from peeking the example solutions before I made mine.&lt;/p&gt;
       <author>keso@iki.fi (Mikko Keskinen)</author>
       <guid>https://blog.muke.fi/link/rgb-c64-demo/</guid>
       <description>&lt;p&gt;Very impressive C64 demo.&lt;/p&gt;
-
 &lt;p&gt;Relevant tutorial: &amp;ldquo;&lt;a href=&#34;http://www.antimon.org/code/Linus/&#34;&gt;An Introduction to Programming C-64 Demos&lt;/a&gt;&amp;rdquo; by one of
 the creators of the demo.&lt;/p&gt;
 </description>
@@ -155,21 +153,14 @@ there is a new 360controller-driver that works beautifully.&lt;/p&gt;
       <guid>https://blog.muke.fi/feature/chrome-origin-chip/</guid>
       <description>&lt;p&gt;So Google has decided to mess with every user and especially web developer by
 hiding the full URL in the address bar.&lt;/p&gt;
-
 &lt;p&gt;For those like me who would like to disable the &amp;ldquo;experiment&amp;rdquo; type the
 following address to the URL bar, press enter, choose disabled and relaunch Chrome.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;chrome://flags/#origin-chip-in-omnibox
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;The feature is called Origin Chip. Here is what it looks like:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;origin_chip_enabled.jpg&#34; alt=&#34;Origin Chip Enabled&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;origin_chip_enabled.jpg&#34; alt=&#34;Origin Chip Enabled&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Compare that to an image with the Origin Chip disabled:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;origin_chip_disabled.jpg&#34; alt=&#34;Origin Chip Disabled&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;origin_chip_disabled.jpg&#34; alt=&#34;Origin Chip Disabled&#34;&gt;&lt;/p&gt;
 &lt;p&gt;More info in &lt;a href=&#34;http://www.allenpike.com/2014/burying-the-url/&#34;&gt;Allen Pikes Blog&lt;/a&gt;. Discussion in &lt;a href=&#34;https://news.ycombinator.com/item?id=7677898&#34;&gt;Hacker News&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -181,47 +172,37 @@ following address to the URL bar, press enter, choose disabled and relaunch Chro
       <author>keso@iki.fi (Mikko Keskinen)</author>
       <guid>https://blog.muke.fi/feature/creating-local-time-with-pytz/</guid>
       <description>&lt;p&gt;I tried to create a datetime in a specific timezone like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;datetime&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pytz&lt;/span&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import datetime
-import pytz
+&lt;span class=&#34;n&#34;&gt;eet&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pytz&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;timezone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;Europe/Helsinki&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;local_month_start&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;datetime&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;datetime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2014&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tzinfo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;eet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 
-eet = pytz.timezone(&#39;Europe/Helsinki&#39;)
-local_month_start = datetime.datetime(2014, 3, 1, 0, 0, 0, tzinfo=eet)
-
-# REPL output:
-# &amp;gt;&amp;gt;&amp;gt; local_month_start.tzinfo
-# &amp;lt;DstTzInfo &#39;Europe/Helsinki&#39; HMT+1:40:00 STD&amp;gt;
-# &amp;gt;&amp;gt;&amp;gt; local_month_start.astimezone(pytz.UTC)
-# datetime.datetime(2014, 2, 28, 22, 20, tzinfo=&amp;lt;UTC&amp;gt;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The what now? Correct UTC offset is exactly 2 hours, not 1:40.&lt;/p&gt;
-
+&lt;span class=&#34;c1&#34;&gt;# REPL output:&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; local_month_start.tzinfo&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;lt;DstTzInfo &amp;#39;Europe/Helsinki&amp;#39; HMT+1:40:00 STD&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; local_month_start.astimezone(pytz.UTC)&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# datetime.datetime(2014, 2, 28, 22, 20, tzinfo=&amp;lt;UTC&amp;gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The what now? Correct UTC offset is exactly 2 hours, not 1:40.&lt;/p&gt;
 &lt;p&gt;This blog post titled &amp;ldquo;&lt;a href=&#34;http://opensourcehacker.com/2008/06/30/relativity-of-time-shortcomings-in-python-datetime-and-workaround/&#34;&gt;Relativity of time – shortcomings in Python datetime, and workaround&lt;/a&gt;&amp;rdquo; from 2008(!) sheds some light on the subject.&lt;/p&gt;
-
 &lt;p&gt;Ofcourse I should have read the &lt;a href=&#34;http://pytz.sourceforge.net/&#34;&gt;pytz docs&lt;/a&gt; first because they say:&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;This library only supports two ways of building a localized time. The first is to use the localize() method provided by the pytz library. This is used to localize a naive datetime (datetime with no timezone information)&lt;/p&gt;
-
 &lt;p&gt;Unfortunately using the tzinfo argument of the standard datetime constructors ‘’does not work’’ with pytz for many timezones.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;So one way of getting the desired result is like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;datetime&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pytz&lt;/span&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import datetime
-import pytz
+&lt;span class=&#34;n&#34;&gt;eet&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pytz&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;timezone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;Europe/Helsinki&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;local_month_start&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;eet&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;localize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;datetime&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;datetime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2014&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 
-eet = pytz.timezone(&#39;Europe/Helsinki&#39;)
-local_month_start = eet.localize(datetime.datetime(2014, 3, 1, 0, 0, 0))
-
-# REPL output:
-# &amp;gt;&amp;gt;&amp;gt; local_month_start.tzinfo
-# &amp;lt;DstTzInfo &#39;Europe/Helsinki&#39; EET+2:00:00 STD&amp;gt;
-# &amp;gt;&amp;gt;&amp;gt; local_month_start.astimezone(pytz.UTC)
-# datetime.datetime(2014, 2, 28, 22, 0, tzinfo=&amp;lt;UTC&amp;gt;)
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;span class=&#34;c1&#34;&gt;# REPL output:&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; local_month_start.tzinfo&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;lt;DstTzInfo &amp;#39;Europe/Helsinki&amp;#39; EET+2:00:00 STD&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &amp;gt;&amp;gt;&amp;gt; local_month_start.astimezone(pytz.UTC)&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# datetime.datetime(2014, 2, 28, 22, 0, tzinfo=&amp;lt;UTC&amp;gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -241,7 +222,6 @@ local_month_start = eet.localize(datetime.datetime(2014, 3, 1, 0, 0, 0))
       <author>keso@iki.fi (Mikko Keskinen)</author>
       <guid>https://blog.muke.fi/link/rich-hickeys-presentations/</guid>
       <description>&lt;p&gt;This holiday I&amp;rsquo;ve been mostly watching Rich Hickeys presentations.&lt;/p&gt;
-
 &lt;p&gt;I highly recommend watching them. At least &lt;a href=&#34;http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey&#34;&gt;Are we there Yet?&lt;/a&gt;,
 &lt;a href=&#34;http://www.infoq.com/presentations/Simple-Made-Easy&#34;&gt;Simple made easy&lt;/a&gt; and
 &lt;a href=&#34;http://www.infoq.com/presentations/Value-Values&#34;&gt;The Value of Values&lt;/a&gt;. They are real eye openers.&lt;/p&gt;
@@ -265,25 +245,21 @@ local_month_start = eet.localize(datetime.datetime(2014, 3, 1, 0, 0, 0))
       <author>keso@iki.fi (Mikko Keskinen)</author>
       <guid>https://blog.muke.fi/feature/ie-javascript-mime-type/</guid>
       <description>&lt;p&gt;Just wasted an hour debugging a simple site because of this.&lt;/p&gt;
-
 &lt;p&gt;When writing inline javascript for IE, don&amp;rsquo;t use the standard
 &lt;code&gt;application/javascript&lt;/code&gt;-type because Internet Explorer won&amp;rsquo;t run the code.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;c&#34;&gt;&amp;lt;!--&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; Doesn&amp;#39;t work with IE &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;--&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;application/javascript&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;testing&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;```
 
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- Doesn&#39;t work with IE --&amp;gt;
-&amp;lt;script type=&amp;quot;application/javascript&amp;quot;&amp;gt;
-    var testing = 1;
-&amp;lt;/script&amp;gt;```
+Just change the MIME-type to `text/javascript` and you&amp;#39;re good to go:
 
-Just change the MIME-type to `text/javascript` and you&#39;re good to go:
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;html
-&lt;!-- Works in all browsers --&gt;
-&lt;script type=&#34;text/javascript&#34;&gt;
-    var testing = 1;
-&lt;/script&gt;```&lt;/p&gt;
-</description>
+```html
+&lt;span class=&#34;c&#34;&gt;&amp;lt;!--&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; Works in all browsers &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;--&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;testing&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -316,7 +292,6 @@ Just change the MIME-type to `text/javascript` and you&#39;re good to go:
 &lt;p&gt;Most importantly, don’t get yourself tangled in too much speculation,
 let the story unfold naturally.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Great read about web app architecture design.&lt;/p&gt;
 </description>
     </item>
@@ -329,20 +304,15 @@ let the story unfold naturally.&lt;/p&gt;
       <guid>https://blog.muke.fi/feature/virtualbox-mavericks/</guid>
       <description>&lt;p&gt;After upgrading to OS X Mavericks I was experiencing strange errors when
 trying to start a VirtualBox VM. e.g.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;Progress state: NS_ERROR_FAILURE
 VBoxManage: error: Failed to create the host-only adapter
 VBoxManage: error: VBoxNetAdpCtl: Error while adding new interface: failed to open /dev/vboxnetctl: No such file or directory
 VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component HostNetworkInterface, interface IHostNetworkInterface
 VBoxManage: error: Context: &amp;quot;int handleCreate(HandlerArg*, int, int*)&amp;quot; at line 66 of file VBoxManageHostonly.cpp
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Problem was solved by running the following command in the command line:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo &amp;quot;/Library/Application Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh&amp;quot; restart
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It will install the VirtualBox binaries and kernel extensions again. The OS X
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo &lt;span class=&#34;s2&#34;&gt;&amp;#34;/Library/Application Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh&amp;#34;&lt;/span&gt; restart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will install the VirtualBox binaries and kernel extensions again. The OS X
 will remove them at boot so you&amp;rsquo;ll need to run it after every boot.&lt;/p&gt;</description>
     </item>
     
@@ -374,10 +344,8 @@ will remove them at boot so you&amp;rsquo;ll need to run it after every boot.&lt
       <guid>https://blog.muke.fi/link/du-sort/</guid>
       <description>&lt;p&gt;How to sort human readable output of &lt;code&gt;du&lt;/code&gt; on Mac OS X command line.
 Strange that the &lt;code&gt;sort&lt;/code&gt; command in BSDs doesn&amp;rsquo;t support the &lt;code&gt;-h&lt;/code&gt; flag.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;for i in G M K; do du -sh * | grep [0-9]$i | sort -nr -k 1; done
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in G M K&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; du -sh * &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;0-9&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$i&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sort -nr -k 1&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>

@@ -50,10 +50,8 @@
   <div class="entry-content">
     <p>How to sort human readable output of <code>du</code> on Mac OS X command line.
 Strange that the <code>sort</code> command in BSDs doesn&rsquo;t support the <code>-h</code> flag.</p>
-
-<pre><code class="language-shell">for i in G M K; do du -sh * | grep [0-9]$i | sort -nr -k 1; done
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="k">for</span> i in G M K<span class="p">;</span> <span class="k">do</span> du -sh * <span class="p">|</span> grep <span class="o">[</span>0-9<span class="o">]</span><span class="nv">$i</span> <span class="p">|</span> sort -nr -k 1<span class="p">;</span> <span class="k">done</span>
+</code></pre></div>
 
     <div class="post-info">
       <p>
