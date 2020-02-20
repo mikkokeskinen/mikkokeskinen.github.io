@@ -49,21 +49,25 @@
 
   <div class="entry-content">
     <p>Just wasted an hour debugging a simple site because of this.</p>
+
 <p>When writing inline javascript for IE, don&rsquo;t use the standard
 <code>application/javascript</code>-type because Internet Explorer won&rsquo;t run the code.</p>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!--</span><span class="c"> Doesn&#39;t work with IE </span><span class="c">--&gt;</span>
-<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;application/javascript&#34;</span><span class="p"></span><span class="p">&gt;</span>
-    <span class="kd">var</span> <span class="nx">testing</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-<span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>```
 
-Just change the MIME-type to `text/javascript` and you&#39;re good to go:
+<pre><code class="language-html">&lt;!-- Doesn't work with IE --&gt;
+&lt;script type=&quot;application/javascript&quot;&gt;
+    var testing = 1;
+&lt;/script&gt;```
 
-```html
-<span class="c">&lt;!--</span><span class="c"> Works in all browsers </span><span class="c">--&gt;</span>
-<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span><span class="p"></span><span class="p">&gt;</span>
-    <span class="kd">var</span> <span class="nx">testing</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-<span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>```
-</code></pre></div>
+Just change the MIME-type to `text/javascript` and you're good to go:
+
+</code></pre>
+
+<p>html
+<!-- Works in all browsers -->
+<script type="text/javascript">
+    var testing = 1;
+</script>```</p>
+
 
     <div class="post-info">
       <p>
@@ -91,16 +95,6 @@ Just change the MIME-type to `text/javascript` and you&#39;re good to go:
                 </ul>
             </footer>
 
-
-            <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-45896098-2', 'auto');
-            ga('send', 'pageview');
-            </script>
 
         </div>
     </body>

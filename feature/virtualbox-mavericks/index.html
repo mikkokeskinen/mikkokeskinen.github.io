@@ -50,15 +50,20 @@
   <div class="entry-content">
     <p>After upgrading to OS X Mavericks I was experiencing strange errors when
 trying to start a VirtualBox VM. e.g.</p>
+
 <pre><code>Progress state: NS_ERROR_FAILURE
 VBoxManage: error: Failed to create the host-only adapter
 VBoxManage: error: VBoxNetAdpCtl: Error while adding new interface: failed to open /dev/vboxnetctl: No such file or directory
 VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component HostNetworkInterface, interface IHostNetworkInterface
 VBoxManage: error: Context: &quot;int handleCreate(HandlerArg*, int, int*)&quot; at line 66 of file VBoxManageHostonly.cpp
 </code></pre>
+
 <p>Problem was solved by running the following command in the command line:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo <span class="s2">&#34;/Library/Application Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh&#34;</span> restart
-</code></pre></div><p>It will install the VirtualBox binaries and kernel extensions again. The OS X
+
+<pre><code class="language-shell">sudo &quot;/Library/Application Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh&quot; restart
+</code></pre>
+
+<p>It will install the VirtualBox binaries and kernel extensions again. The OS X
 will remove them at boot so you&rsquo;ll need to run it after every boot.</p>
 
     <div class="post-info">
@@ -87,16 +92,6 @@ will remove them at boot so you&rsquo;ll need to run it after every boot.</p>
                 </ul>
             </footer>
 
-
-            <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-45896098-2', 'auto');
-            ga('send', 'pageview');
-            </script>
 
         </div>
     </body>
