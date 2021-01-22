@@ -8,10 +8,20 @@
     <language>en-us</language>
     <managingEditor>keso@iki.fi (Mikko Keskinen)</managingEditor>
     <webMaster>keso@iki.fi (Mikko Keskinen)</webMaster>
-    <lastBuildDate>Wed, 19 Feb 2020 13:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jan 2021 08:02:34 +0000</lastBuildDate>
     
     <atom:link href="https://blog.muke.fi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stop Chrome hijacking the media keys</title>
+      <link>https://www.omgchrome.com/chrome-google-music-media-keys/</link>
+      <pubDate>Fri, 22 Jan 2021 08:02:34 +0000</pubDate>
+      <author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/stop-chrome-hijacking-the-media-keys/</guid>
+      <description>&lt;p&gt;Finally decided to look how to stop media keys playing/pausing Youtube videos instead of Apple Music&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Redux Toolkit</title>
