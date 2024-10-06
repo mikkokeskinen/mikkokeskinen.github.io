@@ -23,7 +23,7 @@
             <header class="sixteen columns">
                 <div id="logo">
                     <a href="https://blog.muke.fi/"><h1>mikkokeskinen</h1></a>
-                    <h2>Python, Django, Clojure, Games, Retro, Tech</h2>
+                    <h2>Webdev, Python, Django, Games, Retro, Tech</h2>
                 </div>
                 <nav>
                   <ul>
@@ -57,8 +57,8 @@ VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component HostNe
 VBoxManage: error: Context: &quot;int handleCreate(HandlerArg*, int, int*)&quot; at line 66 of file VBoxManageHostonly.cpp
 </code></pre>
 <p>Problem was solved by running the following command in the command line:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo <span class="s2">&#34;/Library/Application Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh&#34;</span> restart
-</code></pre></div><p>It will install the VirtualBox binaries and kernel extensions again. The OS X
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo <span class="s2">&#34;/Library/Application Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh&#34;</span> restart
+</span></span></code></pre></div><p>It will install the VirtualBox binaries and kernel extensions again. The OS X
 will remove them at boot so you&rsquo;ll need to run it after every boot.</p>
 
     <div class="post-info">
@@ -82,22 +82,10 @@ will remove them at boot so you&rsquo;ll need to run it after every boot.</p>
                 <hr />
                 <ul id="footerLinks">
                     <li><a href="mailto:keso@iki.fi">keso@iki.fi</a></li>
-                    
-                    <li>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>, <a href="//www.typeandgrids.com" target="_blank">Type &amp; Grids</a> and <a href="//www.github.com" target="_blank">Github</a></li>
+                    <li>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> and <a href="//www.github.com" target="_blank">Github</a></li>
                 </ul>
             </footer>
 
-
-            <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-45896098-2', 'auto');
-            ga('send', 'pageview');
-            </script>
-
-        </div>
+         </div>
     </body>
 </html>
