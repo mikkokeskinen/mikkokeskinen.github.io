@@ -8,8 +8,15 @@
     <language>en-us</language>
     <managingEditor>keso@iki.fi (Mikko Keskinen)</managingEditor>
     <webMaster>keso@iki.fi (Mikko Keskinen)</webMaster>
-    <lastBuildDate>Fri, 22 Jan 2021 08:02:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2024 16:47:07 +0000</lastBuildDate>
     <atom:link href="https://blog.muke.fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing TinaCMS</title>
+      <link>https://blog.muke.fi/link/testing-tinacmd/</link>
+      <pubDate>Sun, 06 Oct 2024 16:47:07 +0000</pubDate><author>keso@iki.fi (Mikko Keskinen)</author>
+      <guid>https://blog.muke.fi/link/testing-tinacmd/</guid>
+      <description>&lt;p&gt;Previously I used &lt;a href=&#34;https://web.archive.org/web/20230421103646/https://forestry.io/&#34;&gt;forestry.io&lt;/a&gt; as the UI for this blog, but it got discontinued on April 2023. TinaCMS seems to be a spiritual successor.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Stop Chrome hijacking the media keys</title>
       <link>https://blog.muke.fi/link/stop-chrome-hijacking-the-media-keys/</link>
